@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+  char lower;
+   
+    scanf("%c", &lower);
+   char UPPER=lower-32;
+    scanf("%c", &UPPER);
+    printf("The uppercase of %c is %c", lower, UPPER);
+    
+    return 0;
+}
